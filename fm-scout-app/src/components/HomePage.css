@@ -1,0 +1,129 @@
+/* Ana konteyner */
+.homepage-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Videoyu içeriğin arkasına koymak için */
+}
+.homepage-container p {
+  font-size: 25px;
+  color: white;
+  
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  word-spacing: 10px;
+}
+.homepage-container h1{
+  color: white;
+}
+.buttons-and-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  z-index: 2; /* İçeriğin videonun üstünde olması için */
+}
+
+/* Logo bölgesi */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Daire şeklinde logo */
+  border: 5px solid #ffffff; /* Beyaz dış çerçeve */
+}
+
+/* Sol ve sağ butonlar */
+.left-buttons, .right-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Genel buton stili */
+/*.button {
+  display: block;
+  text-align: center;
+  background-color: lightyellow; 
+  color: black;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: red; 
+  transform: scale(1.05);
+}*/
+/* Genel buton stili */
+.button {
+  display: block;
+  text-align: center;
+  background-color: transparent; /* Şeffaf arka plan */
+  color: white; /* Metin rengini beyaz yap */
+  border: 2px solid white; /* Beyaz kenarlık */
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all 0.3s ease;
+}
+
+/* Hover efekti */
+.button:hover {
+  background-color: white; /* Arka planı beyaz yap */
+  color: black; /* Metin rengini siyah yap */
+  transform: scale(1.05); /* Biraz büyüt */
+}
+
+
+/* Responsive tasarım */
+@media screen and (max-width: 768px) {
+  .buttons-and-logo {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+

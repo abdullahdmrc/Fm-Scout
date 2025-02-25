@@ -1,0 +1,104 @@
+.player-details {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .player-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: #ddd;
+    border-radius: 50%;
+    font-size: 50px;
+  }
+  
+  .ratings {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .rating-box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .player-info {
+    margin-top: 20px;
+  }
+  
+  .player-info h2 {
+    margin: 0 0 10px;
+  }
+  
+  .player-info p {
+    margin: 5px 0;
+  }
+  
+  .foot-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .foot-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .foot-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .attributes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .attribute-category {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .attribute-category h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .attribute-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .attribute-category li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  

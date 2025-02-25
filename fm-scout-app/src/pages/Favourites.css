@@ -1,0 +1,104 @@
+/* Favoriler sayfasının genel tasarımı */
+.favourites-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Başlık tasarımı */
+.favourites-page h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: black;
+  margin-bottom: 30px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Tablo tasarımı */
+.favourites-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tablo başlıkları */
+.favourites-list th {
+  background-color: #002244;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* Tablo hücreleri */
+.favourites-list td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Tablo satırı hover efekti */
+.favourites-list tr:hover {
+  background-color: #f4f4f4;
+}
+
+/* Sil butonu */
+.delete-favorite-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  line-height: 30px;
+  text-align: center;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.delete-favorite-btn:hover {
+  background-color: #c0392b;
+  transform: scale(1.1);
+}
+
+/* Link tasarımı */
+.player-link,
+.club-link {
+  text-decoration: none;
+  color: #3498db;
+  transition: color 0.2s;
+}
+
+.player-link:hover,
+.club-link:hover {
+  color: #2980b9; 
+  text-decoration: underline;
+}
+
+/* Yükleme ekranı */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .favourites-page {
+    flex-direction: column;
+  }
+
+  .favourites-list
+  .pagination{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

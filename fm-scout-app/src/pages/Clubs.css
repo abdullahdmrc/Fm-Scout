@@ -1,0 +1,139 @@
+/* Genel Konteyner */
+.clubs-container {
+    display: flex;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  
+  .filters {
+    width: 25%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .filters h3 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .filter-input {
+    margin-bottom: 15px;
+  }
+  
+  .filter-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .filter-input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  .club-list {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .club-list h3 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .club-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .club-table th,
+  .club-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .club-table th {
+    background-color: #f1f3f5;
+    color: #495057;
+    font-weight: bold;
+  }
+  
+  .club-row:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  .club-row td {
+    color: #495057;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button.active {
+    background-color: #ffc107;
+    color: #ffffff;
+    border-color: #ffc107;
+  }
+  
+  .pagination-button:hover {
+    background-color: #ffc107;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #e9ecef;
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  
+  
+  
+ 
+  @media (max-width: 768px) {
+    .clubs-container {
+      flex-direction: column;
+    }
+  
+    .filters,
+    .club-list,
+    .pagination{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+ 

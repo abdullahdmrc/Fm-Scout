@@ -1,0 +1,118 @@
+/*.club-details-container {
+    display: flex;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  
+  .club-info {
+    width: 30%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .club-info h3 {
+    margin-bottom: 15px;
+    color: #343a40;
+  }
+  
+  .club-info p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #495057;
+  }
+  
+ 
+  .player-list {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .player-list h3 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .player-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-table th,
+  .player-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .player-table th {
+    background-color: #f1f3f5;
+    color: #495057;
+    font-weight: bold;
+  }
+  */
+  .club-details {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .club-info {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .club-info h2 {
+    margin-bottom: 10px;
+    color :black;
+  }
+  
+  .club-info p {
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  .club-players {
+    flex: 2;
+  }
+  
+  .players-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .players-table th, .players-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .players-table th {
+    background-color: #f4f4f4;
+  }
+  @media (max-width: 768px) {
+    .club-details {
+      flex-direction: column;
+    }
+  
+    
+    .club-players {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  
+  
